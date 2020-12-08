@@ -10,9 +10,14 @@
   </head>
 
   <body>
+    <header>
+      <%= link_to "HOME", articles_path, class: 'home-btn' %>
+    </header>
+
     <p class="flash">
-      <%= flash.notice %> 
+      <%= flash.notice %>
     </p>
+
     <div id="container">
       <div id="content">
         <%= yield %>

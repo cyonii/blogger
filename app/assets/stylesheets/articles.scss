@@ -1,3 +1,17 @@
 // Place all the styles related to the articles controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: https://sass-lang.com/
+.home-btn {
+  padding: 0.75rem 2rem;
+  background-color: #70754d;
+  color: #d7e095;
+  border: 1px solid #bbb;
+  border-radius: 5px;
+  box-shadow: 0 2px 2px #70754d;
+  text-decoration: none;
+  font-weight: bold;
+
+  &:hover {
+    box-shadow: 0 2px 4px #70754d;
+  }
+}
