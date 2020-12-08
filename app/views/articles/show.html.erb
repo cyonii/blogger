@@ -14,9 +14,13 @@
 
 <br>
 <br>
+<% if logged_in? %>
+
 <%= link_to "Delete", article_path(@article), method: :delete, data: {confirm: "Really delete the article?"} %>
 &nbsp;
 <%= link_to "edit", edit_article_path(@article) %>
+
+<% end %>
 
 <br>
 <br>
